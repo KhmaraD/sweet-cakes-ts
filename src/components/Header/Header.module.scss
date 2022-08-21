@@ -1,0 +1,32 @@
+header {
+  background-color: #fcf0f3;
+  display: flex;
+  justify-content: space-evenly;
+
+  .logoWrapper {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+
+    .logoName {
+      max-height: 17px;
+      margin-left: 10px;
+    }
+
+    .logo {
+      max-height: 45px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  header {
+    height: 55px;
+    justify-content: space-between;
+    padding: 0 30px;
+
+    .logoWrapper {
+      padding: 0;
+    }
+  }
+}
